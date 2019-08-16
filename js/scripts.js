@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $(".form").submit(function(event){
+    var user = $("#name").val();
     var travel = parseInt($("#places").val());
     var fruit = parseInt($("#fruits").val());
     var game = parseInt($("#games").val());
@@ -9,21 +10,24 @@ $(document).ready(function(){
     event.preventDefault();
 
     if (calculate === 4 || calculate === 5 || calculate === 6 || calculate === 7 ) {
-      $("#cSharp").show();
-      $("#ruby").hide();
-      $("#python").hide();
+      $("span").text(user);
+      $("#cSharp").fadeIn();
+      $("#ruby").fadeOut();
+      $("#python").fadeOut();
     } else if (calculate === 8 || calculate === 9 || calculate === 10 || calculate === 11){
-      $("#cSharp").hide();
-      $("#ruby").show();
-      $("#python").hide();
+      $("span").text(user);
+      $("#cSharp").fadeOut();
+      $("#ruby").fadeIn();
+      $("#python").fadeOut();
     } else if (calculate === 12 || calculate === 13 || calculate === 14 || calculate === 15){
-      $("#cSharp").hide();
-      $("#ruby").hide();
-      $("#python").show();;
+      $("span").text(user);
+      $("#cSharp").fadeOut();
+      $("#ruby").fadeOut();
+      $("#python").fadeIn();;
     } else {
-      $("#cSharp").hide();
-      $("#ruby").hide();
-      $("#python").hide();
+      $("#cSharp").fadeOut();
+      $("#ruby").fadeOut();
+      $("#python").fadeOut();
     }
   });
 });
