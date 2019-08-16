@@ -1,12 +1,17 @@
 body {
   text-align: center;
   background-image: url("../img/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+
 }
-.questions {
+.questions label {
   font-family: monospace;
+  color: white;
 }
 .jumbotron {
   color: forestgreen;
+  font-family: times;
 }
 .answer img{
   width: 200px;
@@ -15,7 +20,20 @@ body {
   display: none;
   position: relative;
   padding: 30px;
+  margin-left: 20%;
+  margin-right:20%;
   background-color: gray;
   border-radius: 2%;
   border: 4px black outset;
+}
+select {
+  background-color: transparent;
+  font-family: sans-serif;
+  color: white;
+  border: gray solid 4px;
+}
+button {
+  margin: 5px;
+  background-color: black;
+  color: white;
 }
