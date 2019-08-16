@@ -7,3 +7,9 @@ body {
 .jumbotron {
   color: forestgreen;
 }
+.answer img{
+  width: 200px;
+}
+.answer {
+  display: none;
+}
