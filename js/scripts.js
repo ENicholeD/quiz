@@ -9,13 +9,21 @@ $(document).ready(function(){
     event.preventDefault();
 
     if (calculate === 4 || calculate === 5 || calculate === 6 || calculate === 7 ) {
-      console.log(calculate);
+      $("#cSharp").show();
+      $("#ruby").hide();
+      $("#python").hide();
     } else if (calculate === 8 || calculate === 9 || calculate === 10 || calculate === 11){
-      console.log("HELLO");
+      $("#cSharp").hide();
+      $("#ruby").show();
+      $("#python").hide();
     } else if (calculate === 12 || calculate === 13 || calculate === 14 || calculate === 15){
-      console.log(calculate);
+      $("#cSharp").hide();
+      $("#ruby").hide();
+      $("#python").show();;
     } else {
-      
+      $("#cSharp").hide();
+      $("#ruby").hide();
+      $("#python").hide();
     }
   });
 });
