@@ -41,13 +41,102 @@ $(document).ready(function(){
       $("span").text(user);
       $("#let").fadeIn();
       $("#thing").fadeOut();
-      $("").fadeOut()
+      $("#genetic").fadeOut();
+      $("#logan").fadeOut();
+      $("#mad").fadeOut();
+      $("#light").fadeOut();
+      $("#good").fadeOut();
+      $("#idiocracy").fadeOut();
+      $("#blues").fadeOut();
     } else if (userGenre === "horror" && userSub === "scifi") {
       $("span").text(user);
-      console.log("super!");
+      $("#let").fadeOut();
+      $("#thing").fadeIn();
+      $("#genetic").fadeOut();
+      $("#logan").fadeOut();
+      $("#mad").fadeOut();
+      $("#light").fadeOut();
+      $("#good").fadeOut();
+      $("#idiocracy").fadeOut();
+      $("#blues").fadeOut();;
+    } else if (userGenre === "horror" && userSub === "music") {
+      $("span").text(user);
+      $("#let").fadeOut();
+      $("#thing").fadeOut();
+      $("#genetic").fadeIn();
+      $("#logan").fadeOut();
+      $("#mad").fadeOut();
+      $("#light").fadeOut();
+      $("#good").fadeOut();
+      $("#idiocracy").fadeOut();
+      $("#blues").fadeOut();
     } else if (userGenre === "action" && userSub === "drama"){
       $("span").text(user);
-
+      $("#let").fadeOut();
+      $("#thing").fadeOut();
+      $("#genetic").fadeOut();
+      $("#logan").fadeIn();
+      $("#mad").fadeOut();
+      $("#light").fadeOut();
+      $("#good").fadeOut();
+      $("#idiocracy").fadeOut();
+      $("#blues").fadeOut();
+    } else if (userGenre === "action" && userSub === "scifi"){
+      $("span").text(user);
+      $("#let").fadeOut();
+      $("#thing").fadeOut();
+      $("#genetic").fadeOut();
+      $("#logan").fadeOut();
+      $("#mad").fadeIn();
+      $("#light").fadeOut();
+      $("#good").fadeOut();
+      $("#idiocracy").fadeOut();
+      $("#blues").fadeOut();
+    } else if (userGenre === "action" && userSub === "music"){
+      $("span").text(user);
+      $("#let").fadeOut();
+      $("#thing").fadeOut();
+      $("#genetic").fadeOut();
+      $("#logan").fadeOut();
+      $("#mad").fadeOut();
+      $("#light").fadeIn();
+      $("#good").fadeOut();
+      $("#idiocracy").fadeOut();
+      $("#blues").fadeOut();
+    } else if (userGenre === "comedy" && userSub === "drama"){
+      $("span").text(user);
+      $("#let").fadeOut();
+      $("#thing").fadeOut();
+      $("#genetic").fadeOut();
+      $("#logan").fadeOut();
+      $("#mad").fadeOut();
+      $("#light").fadeOut();
+      $("#good").fadeIn();
+      $("#idiocracy").fadeOut();
+      $("#blues").fadeOut();
+    } else if (userGenre === "comedy" && userSub === "scifi"){
+      $("span").text(user);
+      $("#let").fadeOut();
+      $("#thing").fadeOut();
+      $("#genetic").fadeOut();
+      $("#logan").fadeIn();
+      $("#mad").fadeOut();
+      $("#light").fadeOut();
+      $("#good").fadeOut();
+      $("#idiocracy").fadeIn();
+      $("#blues").fadeOut();
+    } else if (userGenre === "comedy" && userSub === "music"){
+      $("span").text(user);
+      $("#let").fadeOut();
+      $("#thing").fadeOut();
+      $("#genetic").fadeOut();
+      $("#logan").fadeOut();
+      $("#mad").fadeOut();
+      $("#light").fadeOut();
+      $("#good").fadeOut();
+      $("#idiocracy").fadeOut();
+      $("#blues").fadeIn();
     }
+
   });
 });
