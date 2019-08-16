@@ -18,7 +18,7 @@ label, h2 {
 .answer img{
   width: 100px;
 }
-.answer {
+.answer, .movie {
   display: none;
   color: black;
   font-family: Consolas;

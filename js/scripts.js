@@ -30,16 +30,24 @@ $(document).ready(function(){
       $("#python").fadeOut();
     }
   });
+
+  // below is for the extra quiz
   $(".form2").submit(function(event){
+    var user = $("#name").val();
     var userGenre = $("#genre").val();
     var userSub = $("#subGenre").val();
     event.preventDefault();
     if (userGenre === "horror" && userSub === "drama"){
-      console.log("yay!");
+      $("span").text(user);
+      $("#let").fadeIn();
+      $("#thing").fadeOut();
+      $("").fadeOut()
     } else if (userGenre === "horror" && userSub === "scifi") {
+      $("span").text(user);
       console.log("super!");
-    } else if (userGenre === "horror" && userSub === "music") {
-      console.log("wonderful!");
+    } else if (userGenre === "action" && userSub === "drama"){
+      $("span").text(user);
+
     }
   });
 });
