@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Beginner's quiz</title>
-    <script
-			  src="https://code.jquery.com/jquery-3.4.1.js"
-			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-			  crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/scripts.js"></script>
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <div class="jumbotron">
+<head>
+  <meta charset="utf-8">
+  <title>Beginner's quiz</title>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="jumbotron">
     <h1>Beginner's quiz to programming languages</h1>
     <br>
     <h3>Find out what programming language you should learn!</h3>
-    </div>
-    <form class="form" action="index.html" method="post">
-      <div class="container">
-        <div class="questions">
-          <label>What is your name?</label>
-          <br>
-          <input type="text" id="name" value="">
-          <br>
+  </div>
+  <form class="form" action="index.html" method="post">
+    <div class="container">
+      <div class="questions">
+        <label>What is your name?</label>
+        <br>
+        <input type="text" id="name" value="">
+        <br>
         <!-- travel -->
         <label>which of these would you most likely travel to?</label>
         <br>
@@ -79,33 +79,68 @@
         </select>
         <br>
         <button type="submit" class="btn">Submit</button>
-        </div>
-        <br>
-        <!-- answers -->
-        <!-- c# answer -->
-        <div class="answer" id="cSharp">
-          <h1>C#</h1>
-          <img src="img/cSharp.png" alt="A picture of the c# logo">
-          <p> Hey <span></span>! You should learn C#! this programming language is used to run the backend and is an Object Oriented Programming Language! This nifty language would fit perfectly for you!</p>
-          <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="blank">Learn more</a>
-        </div>
-
-        <!-- ruby answer -->
-        <div class="answer" id="ruby">
-          <h1>Ruby</h1>
-          <img src="img/ruby.png" alt="A picture of the ruby symbol">
-          <p>Hey <span></span>! You should learn Ruby! Ruby is well known for being a language for Web Applications. You'd do very well with using Ruby!</p>
-          <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)" target="blank">Learn more</a>
-        </div>
-
-        <!-- python answer -->
-        <div class="answer" id="python">
-          <h1>Python</h1>
-          <img src="img/python.png" alt="A picture of the python logo">
-          <p> Hey <span></span>! You should try out Python! It's a wonderful programming language that is often used for developing desktop GUI(Graphical User Interface), websites and Web Applications. This high level language would be perfect for you to learn!</p>
-          <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="blank">learn more</a>
-        </div>
       </div>
-    </form>
-  </body>
+      <br>
+      <!-- answers -->
+      <!-- c# answer -->
+      <div class="answer" id="cSharp">
+        <h1>C#</h1>
+        <img src="img/cSharp.png" alt="A picture of the c# logo">
+        <p> Hey <span></span>! You should learn C#! this programming language is used to run the backend and is an Object Oriented Programming Language! This nifty language would fit perfectly for you!</p>
+        <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="blank">Learn more</a>
+      </div>
+
+      <!-- ruby answer -->
+      <div class="answer" id="ruby">
+        <h1>Ruby</h1>
+        <img src="img/ruby.png" alt="A picture of the ruby symbol">
+        <p>Hey <span></span>! You should learn Ruby! Ruby is well known for being a language for Web Applications. You'd do very well with using Ruby!</p>
+        <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)" target="blank">Learn more</a>
+      </div>
+
+      <!-- python answer -->
+      <div class="answer" id="python">
+        <h1>Python</h1>
+        <img src="img/python.png" alt="A picture of the python logo">
+        <p> Hey <span></span>! You should try out Python! It's a wonderful programming language that is often used for developing desktop GUI(Graphical User Interface), websites and Web Applications. This high level language would be perfect for you to learn!</p>
+        <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="blank">learn more</a>
+      </div>
+    </div>
+  </form>
+
+  <!-- extra quiz(s?) -->
+  <form class="form2" action="index.html" method="post">
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Extra quizes</h1>
+      </div>
+      <h2>What Movie should you watch?</h2>
+      <br>
+        <label>What genre do you link most?</label>
+        <br>
+        <select id="genre" name="genre">
+          <option value="0">Select One</option>
+          <option value="horror">Horror</option>
+          <option value="action">Action</option>
+          <option value="romance">Romance</option>
+          <option value="comedy">Comedy</option>
+        </select>
+        <br>
+      <!-- subGenera -->
+        <label>What subgenre do you like</label>
+        <br>
+        <select class="" name="">
+          <option value="0">Select One</option>
+          <option value="drama">Drama</option>
+          <option value="scifi">Sci-fi</option>
+          <option value="music">Musical</option>
+        </select>
+
+        <!-- answers -->
+        <div class="movie1">
+          <h3></h3>
+        </div>
+    </div>
+  </form>
+</body>
 </html>

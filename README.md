@@ -13,9 +13,9 @@ This is a quiz to see what programming language you should learn. It was made du
 
 | Behavior | Input | Output |
 | ------------- |:-------------:| -----:|
-| User inputs the answers to the questions | Norway, Guavas, Mancala, Whale shark, morning | "You should learn c#!" |
-| user wants to learn more | user clicks "learn more" link | sends user to the Wikipedia page about the computer language |
-|  |  |  |
+| User inputs the answers to the programming language questions | Norway, Guavas, Mancala, Whale shark, morning | "You should learn c#!" |
+| user wants to learn more | "learn more" is clicked | opens a Wikipedia page about c# |
+| User inputs the answer to the movie questions | action, musical | "You should watch 'Lights of Old Santa Fe'" |
 |  |  |  |
 
 ## Setup Instructions
