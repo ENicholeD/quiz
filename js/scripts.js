@@ -136,6 +136,16 @@ $(document).ready(function(){
       $("#good").fadeOut();
       $("#idiocracy").fadeOut();
       $("#blues").fadeIn();
+    } else {
+      $("#let").fadeOut();
+      $("#thing").fadeOut();
+      $("#genetic").fadeOut();
+      $("#logan").fadeOut();
+      $("#mad").fadeOut();
+      $("#light").fadeOut();
+      $("#good").fadeOut();
+      $("#idiocracy").fadeOut();
+      $("#blues").fadeOut();
     }
 
   });
