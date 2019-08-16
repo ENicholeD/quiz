@@ -30,4 +30,16 @@ $(document).ready(function(){
       $("#python").fadeOut();
     }
   });
+  $(".form2").submit(function(event){
+    var userGenre = $("#genre").val();
+    var userSub = $("#subGenre").val();
+    event.preventDefault();
+    if (userGenre === "horror" && userSub === "drama"){
+      console.log("yay!");
+    } else if (userGenre === "horror" && userSub === "scifi") {
+      console.log("super!");
+    } else if (userGenre === "horror" && userSub === "music") {
+      console.log("wonderful!");
+    }
+  });
 });
